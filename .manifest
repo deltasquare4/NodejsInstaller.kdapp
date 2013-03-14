@@ -1,0 +1,34 @@
+{
+  "devMode": true,
+  "version": "0.1",
+  "name": "NodejsInstaller",
+  "identifier": "com.koding.apps.nodejsinstaller",
+  "path": "~/Applications/NodejsInstaller.kdapp",
+  "homepage": "https://github.com/deltasquare4/nodeInstaller.kdapp",
+  "author": "Rakshit Menpara",
+  "repository": "git://github.com/deltasquare4/nodeInstaller.kdapp.git",
+  "description": "Helps install and configure local copy of Node.js in Koding workspace and helps switch between different versions.",
+  "category": "tools",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./app/settings.coffee",
+          "./app/models/install.coffee",
+          "./app/views/install.coffee",
+          "./app/views/main.coffee",
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  }
+}
